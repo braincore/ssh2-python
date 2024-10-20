@@ -93,7 +93,8 @@ if USING_CYTHON:
 
 setup(
     name='ssh2-python',
-    version=versioneer.get_version(),
+    #version=versioneer.get_version(),
+    version="1.1",
     cmdclass=cmdclass,
     url='https://github.com/ParallelSSH/ssh2-python',
     license='LGPLv2',
